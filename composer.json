@@ -1,0 +1,13 @@
+{
+    "name": "goszowski/cmf",
+    "description": "Content management system based on Lumen framework",
+    "type": "cmf",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jaroslaw Goszowski",
+            "email": "goszowski@gmail.com"
+        }
+    ],
+    "require": {}
+}
