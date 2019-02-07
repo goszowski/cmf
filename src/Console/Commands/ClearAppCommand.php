@@ -18,7 +18,7 @@ class ClearAppCommand extends Command
      *
      * @var string
      */
-    protected $description = "Delete unnecessary files";
+    protected $description = "Delete unnecessary files from Lumen instalation";
 
 
     /**
