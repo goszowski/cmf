@@ -3,7 +3,7 @@
 namespace Cmf\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use Cmf\Console\Commands\ClearAppCommand;
+use Cmf\Console\Commands\AppClearCommand;
 
 class CmfServiceProvider extends ServiceProvider {
 
@@ -27,6 +27,6 @@ class CmfServiceProvider extends ServiceProvider {
         //Register Cmf routes
         include __DIR__.'/../routes/admin.php';
 
-        $this->commands(ClearAppCommand::class);
+        $this->commands(AppClearCommand::class);
     }
 }
